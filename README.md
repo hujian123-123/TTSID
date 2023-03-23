@@ -16,6 +16,7 @@ We used the trained Resnet50 model with Shapley Additive Explanations (SHAP) (Lu
 ### Truck GPS Data:
 A journey of a truck from Chengdu to Shanghai (containing 2000 GIS points) is selected as an example for analysis.
 ![example_data](https://raw.githubusercontent.com/hujian123-123/TTSID/main/img/example_img.png)
+### Method:
 Based on the recognition results of ResNet50, we filtered the results by using the thresholds of the front and back points to filter out the truck driving points identified as stopping points, to filter out the results of truck travel points identified as dwell points.
 ### LU Points:
 ![lu_points](https://raw.githubusercontent.com/hujian123-123/TTSID/main/img/lu_points.png)
