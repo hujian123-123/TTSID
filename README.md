@@ -1,6 +1,6 @@
 # Satellite Image Dataset of Truck Activities (SIDTA)
 ## Abstract:
-we divide the truck trajectory into loading/unloading points、resting points and traveling points , and use point of interest(POI) and area of interest(AOI) data to collect satellite images to create our image dataset.
+we divide the truck trajectory into loading/unloading points、resting points and traveling points , and use point of interest(POI) and area of interest(AOI) data to collect satellite images to create our image dataset.The image set contains 1000 satellite images of each of the 3 types of points, and the image resolution is 600*600.
 ## Example images:
 ![example images](https://github.com/hujian123-123/TTSID/raw/main/img/example%20img.png)
 ## Baseline model test results:
