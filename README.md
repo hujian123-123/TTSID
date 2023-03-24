@@ -1,6 +1,6 @@
 # Satellite Image Dataset of Truck Activities (SIDTA)
 ## Abstract:
-we divide the truck trajectory into loading/unloading points、resting points and traveling points , and use point of interest(POI) and area of interest(AOI) data to collect satellite images to create our image dataset.The image set contains 1000 satellite images of each of the 3 types of points, and the image resolution is 600*600.
+To identify truck activity, we divided the truck trajectory into three types of points: loading/unloading, resting, and traveling points. We collected satellite images for each point using point of interest (POI) and area of interest (AOI) data, creating a dataset of 1000 satellite images for each point type. The images have a resolution of 600x600.
 ## Example images:
 ![example images](https://github.com/hujian123-123/TTSID/raw/main/img/example%20img.png)
 ## Baseline model test results:
@@ -17,7 +17,7 @@ We used the trained Resnet50 model with Shapley Additive Explanations (SHAP) (Lu
 A journey of a truck from Chengdu to Shanghai (containing 2000 GIS points) is selected as an example for analysis.
 ![example_data](https://raw.githubusercontent.com/hujian123-123/TTSID/main/img/example_img.png)
 ### Method:
-Based on the recognition results of ResNet50, we filtered the results by using the thresholds of the front and back points to filter out the truck driving points identified as stopping points, to filter out the results of truck travel points identified as dwell points.
+Based on the recognition results of ResNet50, we filtered the results by using the thresholds of the front and back points to filter out the truck driving points identified as stopping points, to filter out the results of truck travel points identified as dwell points
 ### LU Points:
 ![lu_points](https://raw.githubusercontent.com/hujian123-123/TTSID/main/img/lu_points.png)
 ### Rest Points:
