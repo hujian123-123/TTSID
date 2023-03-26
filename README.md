@@ -4,7 +4,7 @@ To identify truck activity, we divided the truck trajectory into three types of 
 ## Example images:
 ![example images](https://github.com/hujian123-123/TTSID/raw/main/img/example%20img.png)
 ## Baseline model test results:
-We selected ResNet50, Inceptionv3(Ioffe and Szegedy, 2015), Shufflenetv2 (Ma et al., 2018) as the baseline models.
+We selected ResNet50(He et al., 2015), Inceptionv3(Ioffe and Szegedy, 2015), Shufflenetv2 (Ma et al., 2018) as the baseline models.
 ### Accuracy:
 ![Accuracy](https://raw.githubusercontent.com/hujian123-123/TTSID/main/img/baseline%20models%20result.png)
 ### Confusion matrix
